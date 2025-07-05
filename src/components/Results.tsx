@@ -5,7 +5,6 @@ interface Props {
   onRestart: () => void;
 }
 
-/** ☑️ Result & restart */
 export default function Results({
   name,
   correct,

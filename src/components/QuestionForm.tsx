@@ -15,7 +15,6 @@ interface Props {
   apiError: string | null;
 }
 
-/** ❓ Question + answer radio-group */
 export default function QuestionForm({
   q,
   selected,

@@ -9,7 +9,6 @@ interface Props {
   onSubmit: (cfg: UserConfig) => void;
 }
 
-/** 🏠 Landing form (single state object) */
 export default function HomeForm({ onSubmit }: Props) {
   const [form, setForm] = useState<UserConfig>({
     name: '',

@@ -38,13 +38,13 @@ export default function App() {
     }
   };
 
-  /** HOME → QUESTION */
+  /** HOME to QUESTION */
   const handleHomeSubmit = (cfg: UserConfig) => {
     setUser(cfg);
     loadQuestion(cfg);
   };
 
-  /** QUESTION → RESULT */
+  /** QUESTION to RESULT */
   const handleQuestionSubmit = () => {
     if (!q) return;
     setCorrect(selected === q.correct);
